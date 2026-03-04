@@ -4,8 +4,8 @@ app = Flask(__name__)
 
 @app.route("/")
 def home():
-    return "Server is running"
+    return "OK"
 
 @app.route("/health")
 def health():
-    return {"status": "ok"}
+    return {"status": "running"}
