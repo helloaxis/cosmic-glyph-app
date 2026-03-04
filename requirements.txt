@@ -1,4 +1,3 @@
 flask
-stripe
-openai
 gunicorn
+cairosvg
